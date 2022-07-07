@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "c34b4d3c-5a3e-4980-bfe5-86f61dc58872",
+		"name": "Helius Assg 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15521709"
+	},
+	"item": [
+		{
+			"name": "Send Email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"from\" : {\r\n        \"email\" : \"aiempos.waiwarit@gmail.com\",\r\n        \"name\"  : \"Thanakrittz Wongsawangpanich\"\r\n    },\r\n    \"to\" : [\r\n        {\r\n            \"email\" : \"infinitewaiwarit@gmail.com\",\r\n            \"name\"  : \"AiEmPOS Wongsawangpanich\"\r\n        }\r\n    ],\r\n    \"message\" : [\r\n        {\r\n            \"type\" : \"text/plain\",\r\n            \"value\" : \"Test text message\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/send-email",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-email"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
