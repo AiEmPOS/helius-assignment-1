@@ -1,6 +1,6 @@
 # helius-assignment-1
 
-### Please add your API key in the dotenv file (.env)
+### Please create dotenv file (.env), and add your API key in the dotenv file (.env) (e.g. SENDGRID_API_KEY = "/*YOUR API KEY*/")
 
 
 ## Output
